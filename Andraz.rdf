@@ -1,21 +1,47 @@
-<rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:admin="http://webns.net/mvcb/">
-<foaf:PersonalProfileDocument rdf:about="">
-  <foaf:maker rdf:resource="#me"/>
-  <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
-<foaf:Person rdf:ID="me">
-<foaf:name>Andraz Zuccato</foaf:name>
-<foaf:title>Mr</foaf:title>
-<foaf:givenname>Andraz</foaf:givenname>
-<foaf:family_name>Zuccato</foaf:family_name>
-<foaf:nick>Vragabond</foaf:nick>
-<foaf:mbox_sha1sum>00a4ee0763707b4b2a68c1aa9b4c2eee81678f5c</foaf:mbox_sha1sum>
-<foaf:homepage rdf:resource="http://vragabond.neocities.org/"/>
-<foaf:schoolHomepage rdf:resource="http://www.ef.uni-lj.si/en"/></foaf:Person>
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="http://webns.net/mvcb/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <foaf:PersonalProfileDocument rdf:about="http://vragabond.github.io/TUWien/Andraz.rdf">
+    <foaf:maker rdf:resource="http://vragabond.github.io/TUWien/Andraz.rdf#me"/>
+    <foaf:primaryTopic rdf:resource="http://vragabond.github.io/TUWien/Andraz.rdf#me"/>
+    <ns0:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <ns0:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:about="http://vragabond.github.io/TUWien/Andraz.rdf#me">
+    <foaf:name>Andraz Zuccato</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenname>Andraz</foaf:givenname>
+    <foaf:family_name>Zuccato</foaf:family_name>
+    <foaf:nick>Vragabond</foaf:nick>
+    <foaf:mbox_sha1sum>00a4ee0763707b4b2a68c1aa9b4c2eee81678f5c</foaf:mbox_sha1sum>
+    <foaf:homepage rdf:resource="http://vragabond.neocities.org/"/>
+    <foaf:schoolHomepage rdf:resource="http://www.ef.uni-lj.si/en"/>
+    <foaf:knows>
+      <foaf:Person>
+        <rdfs:seeAlso>http://www.polleres.net/foaf.rdf</rdfs:seeAlso>
+        <foaf:name>Axel Polleres</foaf:name>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person>
+        <rdfs:seeAlso>http://www.auto.tuwien.ac.at/~afernbach/foaf.rdf</rdfs:seeAlso>
+        <foaf:name>Andreas Fernbach</foaf:name>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person>
+        <rdfs:seeAlso>http://dpastrana.com/foaf.rdf</rdfs:seeAlso>
+        <foaf:name>David Rodríguez-Pastrana Parareda</foaf:name>
+        <foaf:homepage>http://www.dpastrana.com/</foaf:homepage>
+      </foaf:Person>
+    </foaf:knows>
+
+  </foaf:Person>
+
 </rdf:RDF>

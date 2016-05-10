@@ -1,5 +1,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://vragabond.github.io/TUWien/Andraz.rdf>
   a foaf:PersonalProfileDocument ;
@@ -17,4 +19,17 @@
   foaf:nick "Vragabond" ;
   foaf:mbox_sha1sum "00a4ee0763707b4b2a68c1aa9b4c2eee81678f5c" ;
   foaf:homepage <http://vragabond.neocities.org/> ;
-  foaf:schoolHomepage <http://www.ef.uni-lj.si/en> .
+  foaf:schoolHomepage <http://www.ef.uni-lj.si/en> ;
+  foaf:knows [
+	a foaf:Person ;
+        rdfs:seeAlso http://www.polleres.net/foaf.rdf ;
+        foaf:name "Axel Polleres"
+  ] , [
+	a foaf:Person ;
+        rdfs:seeAlso http://www.auto.tuwien.ac.at/~afernbach/foaf.rdf ;
+        foaf:name "Andreas Fernbach"
+  ] , [
+	a foaf:Person ;
+        rdfs:seeAlso http://dpastrana.com/foaf.rdf ;
+        foaf:name "David Rodríguez-Pastrana Parareda"
+  ] .

@@ -1,0 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<http://vragabond.github.io/TUWien/Andraz.rdf>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://vragabond.github.io/TUWien/Andraz.rdf#me> ;
+  foaf:primaryTopic <http://vragabond.github.io/TUWien/Andraz.rdf#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://vragabond.github.io/TUWien/Andraz.rdf#me>
+  a foaf:Person ;
+  foaf:name "Andraz Zuccato" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Andraz" ;
+  foaf:family_name "Zuccato" ;
+  foaf:nick "Vragabond" ;
+  foaf:mbox_sha1sum "00a4ee0763707b4b2a68c1aa9b4c2eee81678f5c" ;
+  foaf:homepage <http://vragabond.neocities.org/> ;
+  foaf:schoolHomepage <http://www.ef.uni-lj.si/en> .

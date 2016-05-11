@@ -37,7 +37,7 @@
     <foaf:knows>
       <foaf:Person>
         <rdfs:seeAlso>http://dpastrana.com/foaf.rdf</rdfs:seeAlso>
-        <foaf:name>David Rodríguez-Pastrana Parareda</foaf:name>
+        <foaf:name>David Rodriguez-Pastrana Parareda</foaf:name>
         <foaf:homepage>http://www.dpastrana.com/</foaf:homepage>
       </foaf:Person>
     </foaf:knows>
